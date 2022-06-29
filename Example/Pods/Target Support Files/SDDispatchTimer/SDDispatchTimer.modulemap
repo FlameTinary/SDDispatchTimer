@@ -1,0 +1,6 @@
+framework module SDDispatchTimer {
+  umbrella header "SDDispatchTimer-umbrella.h"
+
+  export *
+  module * { export * }
+}

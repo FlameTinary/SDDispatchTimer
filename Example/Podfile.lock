@@ -1,0 +1,27 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - SDDispatchTimer (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - SDDispatchTimer (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  SDDispatchTimer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  SDDispatchTimer: f9b13f6ba7f99e1bdf3e772f57406cca62aa42bc
+
+PODFILE CHECKSUM: 8e44ab3c5685068a2abd9f38b23880a1b4659179
+
+COCOAPODS: 1.11.2
