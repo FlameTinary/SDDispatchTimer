@@ -24,6 +24,11 @@
                               repeats:(BOOL)repeats
                                action:(dispatch_block_t)action;
 
++ (void)scheduleDispatchCountdownTimerWithName:(NSString *)timerName
+                                 countdownTime:(NSTimeInterval)timeValue
+                                  timeInterval:(double)interval
+                                         queue:(dispatch_queue_t)queue
+                                        action:(void(^)(NSTimeInterval time))action;
 
 /**
  取消dispatch定时器
